@@ -1,4 +1,4 @@
-# Final Project - Product Landing Page
+# Final Project - git
 
 This is a one of final project on freeCodeCamp Responsive Web Design Track
 
