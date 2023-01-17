@@ -4,82 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet">
     <title>Bagtopia Product Landing Page</title>
 </head>
 <body>
     <header id="header">
-        <a href="#"><img src="https://i.postimg.cc/1tvfzGbx/bagtopia.png" alt="Bagtopia logo" id="header-img"></a>
-        <nav id="nav-bar">
-            <ul>
-                <li><a class='nav-link' href="#Intro">Intro</a></li>
-                <li><a class='nav-link' href="#Features">Features</a></li>
-                <li><a class='nav-link' href="#Variations">Variations</a></li>
-                <li><a class='nav-link' href="#Pre_Order">Pre-Order</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <a href="#"><img src="https://i.postimg.cc/1tvfzGbx/bagtopia.png" alt="Bagtopia logo" id="header-img"></a>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class='nav-link' href="#Intro">Intro</a></li>
+                    <li><a class='nav-link' href="#Features">Features</a></li>
+                    <li><a class='nav-link' href="#Variations">Variations</a></li>
+                    <li><a class='nav-link' href="#Pre_Order">Pre-Order</a></li>
+                </ul>
+            </nav>
+        </div>
+        
     </header>
     <main class="main-content">
-        <section class="Intro" id="Intro">
-            <div class="cta">
-              <h1>introducing Bagtopia Express Backpack</h1>
-              <p>Buy high quality bag to carry your essentials</p>
-              <a>Pre-Oder</a>
-            </div>
-            <div class="intro-video">
-                <iframe id='video'width="560" height="315" src="https://www.youtube-nocookie.com/embed/aAzCmrPaXIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-        </section>
-        <section class="features" id="Features">
-            <div class="feature-items">
-                <div class="feature-img"></div>
-                <div class="feature-description"></div>
-            </div>
-            <div class="feature-items">
-                <div class="feature-img"></div>
-                <div class="feature-description"></div>
-            </div>
-            <div class="feature-items">
-                <div class="feature-img"></div>
-                <div class="feature-description"></div>
-            </div>
-            <div class="feature-items">
-                <div class="feature-img"></div>
-                <div class="feature-description"></div>
-            </div>
-        </section>
-        <section class='Variations' id="Variations">
-          <div class="variation-1">
-            <img src="#" alt="">
-          </div>
-          <div class="variation-2">
-            <img src="#" alt="">
-          </div>
-          <div class="variation-3">
-            <img src="#" alt="">
-          </div>
-          <div class="variation-4">
-            <img src="#" alt="">
-          </div>
-        </section>
-        <section class="pre-order" id="Pre_Order">
-            <h2>Pre-order with 15% discount</h2>
-            <form class="form" id="form" action="https://www.freecodecamp.com/email-submit">
-                <input type="email" id="email" name='email' placeholder="Enter your email">
-                <input type="submit" class="submit-button" id="submit" value="Send Request">
-            </form>
-        </section>
+        <div class="container">
+            <section class="Intro" id="Intro">
+                <div class="cta">
+                  <h1>Introducing Three Dimentional Backpack</h1>
+                  <p>Buy high quality bag to carry your essentials</p>
+                  <a>Pre-Oder</a>
+                </div>
+                <div class="intro-video">
+                    <iframe id='video'width="560" height="315" src="https://www.youtube-nocookie.com/embed/aAzCmrPaXIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </section>
+            <section class="features" id="Features">
+                <div class="feature-items">
+                    <div class="feature-img">
+                        <img class="feature-img" src="https://i.postimg.cc/JnY8DvNL/whole-bag.png">
+                    </div>
+                    <div class="feature-description">
+                        <h2> Backpack Features</h2>
+                        <div class="feature1">
+                            <div class="feature-num">
+                                <h1>1</h1>
+                            </div>
+                            <div>
+                                <h3>Egornmic design</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            </div>
+                        </div>
+                        <div class="feature1">
+                            <div class="feature-num">
+                                <h1>2</h1>
+                            </div>
+                            <div>
+                                <h3>Science shoulder straps</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            </div>
+                        </div>
+                        <div class="feature2">
+                            <div class="feature-num">
+                                <h1>3</h1>
+                            </div>
+                            <div>
+                                <h3>External USB inerface</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            </div>
+                        </div>
+                        <div class="feature3">
+                            <div class="feature-num">
+                                <h1>4</h1>
+                            </div>
+                            <div>
+                                <h3>Multiple pockets</h3>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class='Variations' id="Variations">
+                <div class="gallery-headings">
+                    <h2>Gallery</h2>
+                </div>
+                <div class="Gallery-items">
+                    <div class="variation-1">
+                        <img src="https://i.postimg.cc/N0j93yxf/gal-item5.jpg" alt="">
+                    </div>
+                    <div class="variation-2">
+                        <img src="https://i.postimg.cc/0NXMP8tG/gal-item6.jpg" alt="">
+                    </div>
+                    <div class="variation-3">
+                        <img src="https://i.postimg.cc/qRtt79YP/gal-item8.jpg" alt="">
+                    </div>
+                    <div class="variation-4">
+                        <img src="https://i.postimg.cc/hPRJSZ0Y/gal-item7.jpg" alt="">
+                    </div>
+                    <div class="variation-1">
+                        <img src="https://i.postimg.cc/8k2v7zTt/gal-item1.jpg" alt="">
+                    </div>
+                    <div class="variation-2">
+                        <img src="https://i.postimg.cc/VsCrPPXM/gal-item2.jpg" alt="">
+                    </div>
+                    <div class="variation-3">
+                        <img src="https://i.postimg.cc/XJTrBs6p/gal-item3.jpg" alt="">
+                    </div>
+                    <div class="variation-4">
+                        <img src="https://i.postimg.cc/N0j93yxf/gal-item5.jpg" alt="">
+                    </div>
+                </div>
+              
+              
+            </section>
+            <section class="pre-order" id="Pre_Order">
+                <h2>Pre-order with 15% discount</h2>
+                <form class="form" id="form" action="https://www.freecodecamp.com/email-submit">
+                    <input type="email" id="email" name='email' placeholder="Enter your email">
+                    <input type="submit" class="submit-button" id="submit" value="Send Request">
+                </form>
+            </section>
+        </div>
+        
     </main>
     <footer>
-        <nav class="nav-footer">
-            <ul>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Shipping Policy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </nav>
-        <p>&copy2023 - Bagtopia</p>
+        <div class="container">
+            <nav class="nav-footer">
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+            <p>&copy2023 - Bagtopia</p>
+        </div>
+        
+        
     </footer>
 </body>
 </html>

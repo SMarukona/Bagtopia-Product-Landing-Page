@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&display=swap');
+
 *, ::before, ::after{
     padding: 0;
     margin:0;
@@ -7,5 +9,118 @@
 html, body{
     padding: 0;
     margin: 0;
-    color: #fdeced;
+    color: #170608;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Roboto Mono', monospace;
+    color: #170608;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width:1140px;
+}
+
+#header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header{
+    display: flex;
+    padding: .6rem 0;
+    position: fixed;
+    width: 100%;
+}
+
+#header-img{
+    width: 10rem;
+    height: auto;
+}
+
+#nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+#nav-bar ul>li{
+    
+    
+    padding-left: 1.5rem;
+}
+
+#nav-bar ul>li>a{
+    color: #3a003d;
+    text-decoration: none;
+}
+
+.main-content{
+    padding-top: 4.76rem;
+}
+
+.main-content .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.Intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2.5rem 0;
+}
+
+.cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.cta h1{
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+}
+
+.cta p{
+    color: #170608;
+    opacity: .8;
+    margin-bottom: 1rem;
+}
+
+.cta a{
+    color: #3a003d;
+    background-color: #eb3d4f;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    box-shadow:  .1rem .1rem 6rem #170608;
+}
+
+.intro-video iframe{
+    border-radius: .3rem;
+}
+
+.features{
+    padding-top: 8rem;
+}
+.feature-img{
+   width: auto;
+   height: 30rem;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+    
+}
+
+@media only screen and (max-width: 480px) {
+    
 }
