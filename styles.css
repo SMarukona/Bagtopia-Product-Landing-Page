@@ -18,6 +18,14 @@ h1,h2,h3,h4{
     color: #170608;
 }
 
+:root{
+    --primary-color: #eb3d4f;
+    --secondery-color: #3a003d;
+    --neutral-light-color: #fdeced;
+    --neutral-dark-color: #170608;
+    --font-family-headings: 'Roboto Mono', monospace;
+    --font-family-text: 'Poppins', sans-serif;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -33,7 +41,7 @@ h1,h2,h3,h4{
 
 #header{
     display: flex;
-    padding: .6rem 0;
+    padding: 1rem 0;
     position: fixed;
     width: 100%;
 }
@@ -52,8 +60,6 @@ h1,h2,h3,h4{
 }
 
 #nav-bar ul>li{
-    
-    
     padding-left: 1.5rem;
 }
 
@@ -62,8 +68,13 @@ h1,h2,h3,h4{
     text-decoration: none;
 }
 
+#nav-bar ul>li>a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #3a003d;
+}
+
 .main-content{
-    padding-top: 4.76rem;
+    padding-top: 6rem;
 }
 
 .main-content .container{
@@ -102,9 +113,13 @@ h1,h2,h3,h4{
     background-color: #eb3d4f;
     padding: .5rem 1rem;
     border-radius: .3rem;
-    box-shadow:  .1rem .1rem 6rem #170608;
 }
 
+.cta a:hover{
+    background-color: #3a003d;
+    color: #eb3d4f;
+    cursor: pointer;
+}
 .intro-video iframe{
     border-radius: .3rem;
 }
@@ -112,6 +127,7 @@ h1,h2,h3,h4{
 .features{
     padding-top: 8rem;
 }
+
 .feature-img{
    width: auto;
    height: 30rem;
@@ -121,10 +137,6 @@ h1,h2,h3,h4{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.feature-img{
-    
 }
 
 .feature-heading{
@@ -158,8 +170,7 @@ h1,h2,h3,h4{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 
 .Gallery-items div{
@@ -173,36 +184,84 @@ h1,h2,h3,h4{
 }
 
 .variation-1{
+    background: linear-gradient(#eb3d4fa8,#3a003d94), url(https://i.postimg.cc/N0j93yxf/gal-item5.jpg);
+}
+
+.variation-1:hover{
     background: url(https://i.postimg.cc/N0j93yxf/gal-item5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .variation-2{
+    background: linear-gradient(#eb3d4fa8,#3a003d94), url(https://i.postimg.cc/0NXMP8tG/gal-item6.jpg);
+}
+
+.variation-2:hover{
     background: url(https://i.postimg.cc/0NXMP8tG/gal-item6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .variation-3{
-    background: url(https://i.postimg.cc/qRtt79YP/gal-item8.jpg);
-    
+    background: linear-gradient(#eb3d4fa8,#3a003d94), url(https://i.postimg.cc/qRtt79YP/gal-item8.jpg);    
 }
+
+.variation-3:hover{
+    background: url(https://i.postimg.cc/qRtt79YP/gal-item8.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
 .variation-4{
+    background: linear-gradient(#eb3d4fa8,#3a003d94), url(https://i.postimg.cc/hPRJSZ0Y/gal-item7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.variation-4:hover{
     background: url(https://i.postimg.cc/hPRJSZ0Y/gal-item7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
 }
 .variation-5{
-    background: url(https://i.postimg.cc/8k2v7zTt/gal-item1.jpg);
-    
+    background: linear-gradient(#eb3d4fa8,#3a003d94), url(https://i.postimg.cc/8k2v7zTt/gal-item1.jpg);
 }
+
+.variation-5:hover{
+    background: url(https://i.postimg.cc/8k2v7zTt/gal-item1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
 .variation-6{
+    background: linear-gradient(#eb3d4fa8,#3a003d94), url(https://i.postimg.cc/VsCrPPXM/gal-item2.jpg);
+}
+
+.variation-6:hover{
     background: url(https://i.postimg.cc/VsCrPPXM/gal-item2.jpg);
-    
+    background-size: cover;
+    background-repeat: no-repeat;   
 }
 
 .variation-7{
-    background: url(https://i.postimg.cc/XJTrBs6p/gal-item3.jpg);
-    
+    background: linear-gradient(#eb3d4fa8,#3a003d94), url(https://i.postimg.cc/XJTrBs6p/gal-item3.jpg);
 }
+
+.variation-7:hover{
+    background: url(https://i.postimg.cc/XJTrBs6p/gal-item3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
 .variation-8{
+    background: linear-gradient(#eb3d4fa8,#3a003d94), url(https://i.postimg.cc/N0j93yxf/gal-item5.jpg);
+}
+
+.variation-8:hover{
     background: url(https://i.postimg.cc/N0j93yxf/gal-item5.jpg);
-    
+    background-size: cover;
+    background-repeat: no-repeat;   
 }
 
 
@@ -212,13 +271,140 @@ h1,h2,h3,h4{
     height: 450px;
 }
 
+.pre-order{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3rem 0;
+    background-color: #3a003d;
+    border-radius: .3rem;
+    margin-bottom: 1.5rem;
+}
 
+.pre-order h2{
+    color: #fdeced;
+    opacity: .8;
+}
+
+.pre-order form input{
+    background-color: #fdeced;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    border: none;
+    color: #3a003d;
+    font-family: var(--font-family-text);
+}
+
+input[type='email']::placeholder{
+    color: var(--neutral-dark-color);
+    opacity: .5;
+}
+
+input[type='submit']{
+    margin-left: .5rem;
+}
+input[type='submit']:hover{
+    color: #170608;
+    cursor: pointer;
+}
+
+
+/*Footer*/
+footer{
+    background-color: var(--neutral-dark-color);
+    color: var(--neutral-light-color);
+    text-align: center;
+}
+
+.nav-footer ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding-top: 2rem;
+}
+
+.nav-footer ul>li{
+    padding: 1rem;
+}
+
+.nav-footer ul>li>a{
+    color: var(--neutral-light-color);
+    text-decoration: none;
+    opacity: .8;
+}
+
+.nav-footer ul>li>a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid var(--neutral-light-color);
+}
+
+footer p{
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+    opacity: .8;
+}
+
+
+@media only screen and (max-width: 480px) {
+    #header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Intro{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+
+    .cta{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .features{
+        padding-top: 3rem;
+    }
+    .feature-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .feature-description{
+        padding-top: 2rem;
+    }
+
+    .gallery{
+        padding: 2rem;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    footer .container{
+        display: flex;
+        flex-direction: column;
+        max-width: 30rem;
+    }
+
+    .nav-footer ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 
 @media only screen and (min-width: 480px) and (max-width: 768px){
     
 }
 
-@media only screen and (max-width: 480px) {
-    
-}
