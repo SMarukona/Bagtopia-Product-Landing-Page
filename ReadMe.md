@@ -11,6 +11,7 @@ This is a one of final project on freeCodeCamp Responsive Web Design Track
 
 - Semantic HTML5 markup
 - CSS
+- JS DOM
 
 ### Color System
 - Primary Orange Color: #eb3d4f
